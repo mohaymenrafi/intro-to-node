@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-node",
+  "bin": {
+    "note": "./index.js"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "intro.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
